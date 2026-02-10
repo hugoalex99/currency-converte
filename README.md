@@ -1,16 +1,37 @@
-# React + Vite
+# 💸 Conversor de Moedas Premium
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um conversor de moedas moderno desenvolvido em **React**, com visual **Dark Mode Premium**, que exibe:
+- Conversão entre diferentes moedas.
+- Lista de taxas atuais em relação à moeda base escolhida.
+- Gráfico histórico dos últimos 30 dias (Chart.js).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
+- [React](https://reactjs.org/) – Biblioteca para construção da interface.
+- [Axios](https://axios-http.com/) – Consumo da API de câmbio.
+- [Frankfurter API](https://www.frankfurter.app/) – Fonte de dados de taxas de câmbio.
+- [Chart.js](https://www.chartjs.org/) + [react-chartjs-2](https://react-chartjs-2.js.org/) – Gráficos históricos.
+- [Flag Icons](https://flagicons.lipis.dev/) – Bandeiras dos países.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Funcionalidades
+- Conversão de valores entre moedas (USD, EUR, BRL, GBP).
+- Botão para **inverter moedas** rapidamente.
+- Destaque visual para **valor a converter** e **resultado**.
+- Lista de taxas atuais com **scroll vertical**.
+- Layout responsivo com **scroll horizontal** se ultrapassar 100% da tela.
+- Gráfico histórico dos últimos 30 dias para acompanhar a evolução da taxa.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Layout
+- **Dark Mode Premium**: fundo escuro, tipografia clara, destaques em azul e dourado.
+- **Cards organizados**: conversor, lista de moedas e gráfico lado a lado.
+- **Responsivo**: em telas menores, os cards se empilham.
+
+---
+
+npm install
+npm start
