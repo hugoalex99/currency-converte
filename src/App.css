@@ -1,0 +1,128 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #121212; /* fundo escuro */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #00bcd4;
+  text-shadow: 0 0 10px rgba(0,188,212,0.7);
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* scroll horizontal se passar da tela */
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  flex: 1;
+  min-width: 350px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.flag {
+  font-size: 32px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0 0 6px #00bcd4);
+}
+
+label {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+select, input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background: #2a2a2a;
+  color: #fff;
+  outline: none;
+}
+
+select:focus, input:focus {
+  border: 1px solid #00bcd4;
+  box-shadow: 0 0 8px rgba(0,188,212,0.7);
+}
+
+.highlight-input {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00bcd4;
+  text-align: center;
+}
+
+.invert-btn {
+  background: #00bcd4;
+  color: #121212;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 20px 20px 20px 0;
+  transition: 0.3s;
+  
+}
+
+.invert-btn:hover {
+  background: #0192a3;
+}
+
+.result h2 {
+  font-size: 2.2rem;
+  color: #ffc107;
+  text-shadow: 0 0 10px rgba(255,193,7,0.7);
+  text-align: center;
+}
+
+.currency-table {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.currency-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a2a;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.currency-row strong {
+  color: #00bcd4;
+}
+
+.chart {
+  min-width: 500px;
+}

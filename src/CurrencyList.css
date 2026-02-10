@@ -1,0 +1,25 @@
+.currency-table {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.currency-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.currency-row strong {
+  color: #00bcd4;
+}
+
+.flag {
+  font-size: 24px;
+}
